@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDBDA324182690C1006D744F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBDA323182690C1006D744F /* main.m */; };
+		DDBDA32F182697D8006D744F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBDA32E182697D8006D744F /* libz.dylib */; };
+		DDBDA33B18269ED0006D744F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBDA33A18269ED0006D744F /* main.m */; };
+		DDBDA34318269EDA006D744F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBDA32E182697D8006D744F /* libz.dylib */; };
+		DDBDA34918269FC0006D744F /* GRThemeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBDA34818269FC0006D744F /* GRThemeStore.m */; };
+		DDBDA34A18269FDB006D744F /* GRThemeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBDA34818269FC0006D744F /* GRThemeStore.m */; };
+		DDBDA34D1826A042006D744F /* GRThemePiece.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBDA34C1826A042006D744F /* GRThemePiece.m */; };
+		DDBDA34E1826A083006D744F /* GRThemePiece.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBDA34C1826A042006D744F /* GRThemePiece.m */; };
+		DDBDA3501826AD0E006D744F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBDA34F1826AD0E006D744F /* Cocoa.framework */; };
+		DDBDA3531826AFF4006D744F /* NSData+ZLib.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBDA3521826AFF4006D744F /* NSData+ZLib.m */; };
+		DDBDA3541826AFF4006D744F /* NSData+ZLib.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBDA3521826AFF4006D744F /* NSData+ZLib.m */; };
+		DDBDA3551826B00D006D744F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBDA34F1826AD0E006D744F /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDBDA31B182690C1006D744F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DDBDA33518269ED0006D744F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DDBDA31D182690C1006D744F /* packtheme */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = packtheme; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBDA320182690C1006D744F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDBDA323182690C1006D744F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDBDA326182690C1006D744F /* packtheme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "packtheme-Prefix.pch"; sourceTree = "<group>"; };
+		DDBDA32E182697D8006D744F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DDBDA33718269ED0006D744F /* depacktheme */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = depacktheme; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBDA33A18269ED0006D744F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDBDA33D18269ED0006D744F /* depacktheme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "depacktheme-Prefix.pch"; sourceTree = "<group>"; };
+		DDBDA34518269F76006D744F /* ThemeFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeFile.h; sourceTree = "<group>"; };
+		DDBDA34718269FC0006D744F /* GRThemeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRThemeStore.h; sourceTree = "<group>"; };
+		DDBDA34818269FC0006D744F /* GRThemeStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRThemeStore.m; sourceTree = "<group>"; };
+		DDBDA34B1826A042006D744F /* GRThemePiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRThemePiece.h; sourceTree = "<group>"; };
+		DDBDA34C1826A042006D744F /* GRThemePiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRThemePiece.m; sourceTree = "<group>"; };
+		DDBDA34F1826AD0E006D744F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DDBDA3511826AFF4006D744F /* NSData+ZLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ZLib.h"; sourceTree = "<group>"; };
+		DDBDA3521826AFF4006D744F /* NSData+ZLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZLib.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDBDA31A182690C1006D744F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBDA3551826B00D006D744F /* Cocoa.framework in Frameworks */,
+				DDBDA32F182697D8006D744F /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBDA33418269ED0006D744F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBDA3501826AD0E006D744F /* Cocoa.framework in Frameworks */,
+				DDBDA34318269EDA006D744F /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDBDA314182690C1006D744F = {
+			isa = PBXGroup;
+			children = (
+				DDBDA34618269FAE006D744F /* ThemeStore */,
+				DDBDA322182690C1006D744F /* packtheme */,
+				DDBDA33918269ED0006D744F /* depacktheme */,
+				DDBDA31F182690C1006D744F /* Frameworks */,
+				DDBDA31E182690C1006D744F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDBDA31E182690C1006D744F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDBDA31D182690C1006D744F /* packtheme */,
+				DDBDA33718269ED0006D744F /* depacktheme */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDBDA31F182690C1006D744F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDBDA34F1826AD0E006D744F /* Cocoa.framework */,
+				DDBDA32E182697D8006D744F /* libz.dylib */,
+				DDBDA320182690C1006D744F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDBDA322182690C1006D744F /* packtheme */ = {
+			isa = PBXGroup;
+			children = (
+				DDBDA323182690C1006D744F /* main.m */,
+				DDBDA325182690C1006D744F /* Supporting Files */,
+			);
+			path = packtheme;
+			sourceTree = "<group>";
+		};
+		DDBDA325182690C1006D744F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDBDA326182690C1006D744F /* packtheme-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDBDA33918269ED0006D744F /* depacktheme */ = {
+			isa = PBXGroup;
+			children = (
+				DDBDA33A18269ED0006D744F /* main.m */,
+				DDBDA33C18269ED0006D744F /* Supporting Files */,
+			);
+			path = depacktheme;
+			sourceTree = "<group>";
+		};
+		DDBDA33C18269ED0006D744F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDBDA33D18269ED0006D744F /* depacktheme-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDBDA34618269FAE006D744F /* ThemeStore */ = {
+			isa = PBXGroup;
+			children = (
+				DDBDA3511826AFF4006D744F /* NSData+ZLib.h */,
+				DDBDA3521826AFF4006D744F /* NSData+ZLib.m */,
+				DDBDA34518269F76006D744F /* ThemeFile.h */,
+				DDBDA34718269FC0006D744F /* GRThemeStore.h */,
+				DDBDA34818269FC0006D744F /* GRThemeStore.m */,
+				DDBDA34B1826A042006D744F /* GRThemePiece.h */,
+				DDBDA34C1826A042006D744F /* GRThemePiece.m */,
+			);
+			name = ThemeStore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDBDA31C182690C1006D744F /* packtheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBDA32B182690C1006D744F /* Build configuration list for PBXNativeTarget "packtheme" */;
+			buildPhases = (
+				DDBDA319182690C1006D744F /* Sources */,
+				DDBDA31A182690C1006D744F /* Frameworks */,
+				DDBDA31B182690C1006D744F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = packtheme;
+			productName = packtheme;
+			productReference = DDBDA31D182690C1006D744F /* packtheme */;
+			productType = "com.apple.product-type.tool";
+		};
+		DDBDA33618269ED0006D744F /* depacktheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBDA34018269ED0006D744F /* Build configuration list for PBXNativeTarget "depacktheme" */;
+			buildPhases = (
+				DDBDA33318269ED0006D744F /* Sources */,
+				DDBDA33418269ED0006D744F /* Frameworks */,
+				DDBDA33518269ED0006D744F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = depacktheme;
+			productName = depacktheme;
+			productReference = DDBDA33718269ED0006D744F /* depacktheme */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDBDA315182690C1006D744F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Guilherme Rambo";
+			};
+			buildConfigurationList = DDBDA318182690C1006D744F /* Build configuration list for PBXProject "packtheme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDBDA314182690C1006D744F;
+			productRefGroup = DDBDA31E182690C1006D744F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDBDA31C182690C1006D744F /* packtheme */,
+				DDBDA33618269ED0006D744F /* depacktheme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDBDA319182690C1006D744F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBDA324182690C1006D744F /* main.m in Sources */,
+				DDBDA34918269FC0006D744F /* GRThemeStore.m in Sources */,
+				DDBDA34D1826A042006D744F /* GRThemePiece.m in Sources */,
+				DDBDA3531826AFF4006D744F /* NSData+ZLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBDA33318269ED0006D744F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBDA33B18269ED0006D744F /* main.m in Sources */,
+				DDBDA34A18269FDB006D744F /* GRThemeStore.m in Sources */,
+				DDBDA34E1826A083006D744F /* GRThemePiece.m in Sources */,
+				DDBDA3541826AFF4006D744F /* NSData+ZLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDBDA329182690C1006D744F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DDBDA32A182690C1006D744F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDBDA32C182690C1006D744F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "packtheme/packtheme-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDBDA32D182690C1006D744F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "packtheme/packtheme-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDBDA34118269ED0006D744F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "depacktheme/depacktheme-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDBDA34218269ED0006D744F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "depacktheme/depacktheme-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDBDA318182690C1006D744F /* Build configuration list for PBXProject "packtheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBDA329182690C1006D744F /* Debug */,
+				DDBDA32A182690C1006D744F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBDA32B182690C1006D744F /* Build configuration list for PBXNativeTarget "packtheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBDA32C182690C1006D744F /* Debug */,
+				DDBDA32D182690C1006D744F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBDA34018269ED0006D744F /* Build configuration list for PBXNativeTarget "depacktheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBDA34118269ED0006D744F /* Debug */,
+				DDBDA34218269ED0006D744F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDBDA315182690C1006D744F /* Project object */;
+}
