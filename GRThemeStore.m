@@ -97,7 +97,19 @@
 
 - (NSImage *)imageNamed:(NSString *)name
 {
-    return [[[self.themePieces filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"name = %@", name]] lastObject] image];
+    BOOL isRetina = NO;
+    // detect retina display
+    if ([[NSScreen mainScreen] backingScaleFactor] > 1) isRetina = YES;
+    
+    GRThemePiece *piece;
+    
+    // try to get a @2x version of the image if we are on retina
+    if (isRetina) piece = [[self.themePieces filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"name = %@", [name stringByAppendingString:@"@2x"]]] lastObject];
+    
+    // fallback to default image if @2x is not found, or if we are not on retina
+    if (!piece) piece = [[self.themePieces filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"name = %@", name]] lastObject];
+    
+    return [piece image];
 }
 
 - (BOOL)headerSanityCheck
