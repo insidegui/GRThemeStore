@@ -34,7 +34,6 @@
 - (void)parseData
 {
     _data = [_compressedData zlibInflate];
-    [_data writeToFile:@"/Users/inside/Desktop/decompressed.data" atomically:YES];
     
     if (!_data) {
         NSLog(@"ThemeStore: failed to decompress theme file!");
